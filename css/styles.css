@@ -604,6 +604,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  margin-top: 1%;
 }
 
 .img-thumbnail {
@@ -1615,7 +1616,8 @@ progress {
 
   .col-xl-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+    /* width: 66.66666667%; */
+    width: 80%
   }
 
   .col-xl-9 {
@@ -11600,7 +11602,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11776,10 +11778,15 @@ body {
 
 #projects-header {
   text-align: center;
-  margin-bottom: 6%;
+  margin-bottom: 10%;
   font-size: 2.5em
 }
 
 div.project-container {
   flex-direction: column;
+  margin-top: 10%;
+}
+
+div.project-container h2, p {
+  text-align: center;
 }
