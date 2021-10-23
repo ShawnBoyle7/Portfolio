@@ -172,39 +172,8 @@
                 <!-- Featured Project Row-->
                 <h2 id="projects-header">Projects</h2>
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center project-container">
-                    <h2>Zoolodex</h2>
-                    <p>An educational nature and wildlife platform using React, Redux, Flask-SQLAlchemy, AWS S3, PostgreSQL, Docker</p>
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/zoolodex.png" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <!-- <div class="featured-text text-center text-lg-left"> -->
-                            <div class="project-text-div">
-                                </br>
-                                </br>
-                                <ul>
-                                    <li>
-                                        Incorporated AWS S3 API to allow user uploads for a user’s images to create an interactive application for user input.
-                                        Designed a flipped grid to render user suggestions in a consistent, alternating display of user input by utilizing React and pure CSS to provide a visually appealing user experience.
-                                    </li>
-                                </br>
-                                    <li>
-                                        Programmed a responsive navigation bar to adjust visibility conditionally when the Y coordinate scroll amount of the window object surpasses my page image headers.
-                                    </li>
-                                </br>
-                                    <li>
-                                        Programmed a responsive navigation bar to adjust visibility conditionally when the Y coordinate scroll amount of the window object surpasses my page image headers.
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://zoolodex.herokuapp.com">Live</a>
-                                <a href="https://github.com/ShawnBoyle7/Zoolodex">Github</a>
-                            </div>
-                        <!-- </div> -->
-                    </div>
-                </div>
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center project-container">
                     <h2>Programmatic</h2>
-                    <p>A developer’s education application using React, Redux, Flask-SQLAlchemy, AWS S3, PostgreSQL, Docker</p>
+                    <p>A developer’s education application built with React, Redux, Flask-SQLAlchemy, AWS S3, PostgreSQL, Docker</p>
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/programmatic.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <!-- <div class="featured-text text-center text-lg-left"> -->
@@ -213,15 +182,15 @@
                                 </br>
                                 <ul>
                                     <li>
-                                        Rendered a visualization of Dijkstra’s Algorithm via a weighted graph of nodes with lines representing edges built from a CSS 2D grid, calculating Dijkstra’s to traverse the graph, animating the traversal process and shortest path.
+                                        Engineered a visualization of Dijkstra’s Algorithm by calculating the shortest path for a weighted graph of nodes, rendering the graph and edges between the nodes with a CSS grid and React, allowing for an animation of the traversal and shortest path for an enhanced UI/UX.
                                     </li>
                                     </br>
                                     <li>
-                                        Implemented a comprehensive search filter to match course and lesson names to a search query, displaying both a limited, preliminary dropdown, as well as a full results page upon search.
+                                        Programmed a fluent search algorithm with React to match user queries with comprehensive filtering, returning results utilizing the useLocation hook for accurate DOM rendering.
                                     </li>
                                     </br>
                                     <li>
-                                        Developed a responsive and seamless discussion section for users to read lesson feedback, as well as engage in discussion by creating, editing, or deleting their feedback utilizing React and Redux to manipulate the front-end dynamically and efficiently.
+                                        Developed a seamless, responsive discussion section for users to read feedback as well as engage in discussion by creating, editing, or deleting their comments utilizing React / Redux to manipulate the front-end dynamically and efficiently.
                                     </li>
                                 </ul>
                             </div>
@@ -233,8 +202,38 @@
                     </div>
                 </div>
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center project-container">
+                    <h2>Zoolodex</h2>
+                    <p>An educational nature and wildlife platform using React, Redux, Flask-SQLAlchemy, AWS S3, PostgreSQL, Docker</p>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/zoolodex.png" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <!-- <div class="featured-text text-center text-lg-left"> -->
+                            <div class="project-text-div">
+                                </br>
+                                </br>
+                                <ul>
+                                    <li>
+                                        Constructed a fluent backend Flask-SQLAlchemy server, handling comprehensive validations for user authentication and AWS S3 uploads, then providing that data to the PostgreSQL database, wrapping all data for deployment with Docker.
+                                    </li>
+                                </br>
+                                    <li>
+                                        Designed a responsive navigation bar utilizing React and CSS to adjust styling conditionally when the Y coordinate scroll amount of the window object surpasses page image headers, providing a visually appealing UI/UX.
+                                    </li>
+                                </br>
+                                    <li>
+                                        Orchestrated a flipped grid to render user suggestions in a consistent, alternating display of user input by utilizing React and CSS, providing a visually engaging user experience.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://zoolodex.herokuapp.com">Live</a>
+                                <a href="https://github.com/ShawnBoyle7/Zoolodex">Github</a>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center project-container">
                     <h2>Crescendo</h2>
-                    <p>A spotify clone prioritizing music organization using React, Redux, Express, PostgreSQL</p>
+                    <p>A spotify clone prioritizing music organization utilizing React, Redux, Node.js, Express, Sequelize, AWS S3, PostgreSQL</p>
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/crescendo.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <!-- <div class="featured-text text-center text-lg-left"> -->
@@ -243,20 +242,20 @@
                                 </br>
                                 <ul>
                                     <li>
-                                        Created a fluent library system for a user’s musical interests with React by conditionally rendering filtered results for a page of artists, albums, or playlists.
+                                        Developed a relational database with 12 tables held by PostgreSQL, which I queried on the Node.js backend’s Express server with the Sequelize ORM, allowing server data to have clarity and accessibility.
                                     </li>
                                     </br>
                                     <li>
-                                        Programmed a search algorithm to filter artists, songs, albums by name from a search query, along with clickable genres to find all artists or songs for the selected genre.
+                                        Utilized React hooks to develop an intuitive, responsive library by conditionally rendering components by user input, resulting in a clean and navigable interface.
                                     </li>
                                     </br>
                                     <li>
-                                        Programmed a search algorithm to filter artists, songs, albums by name from a search query, along with clickable genres to find all artists or songs for the selected genre.
+                                        Formed a cohesive Redux store through efficient API queries, cutting down on server load and resulting in a quick, optimal load time for data rendered on the frontend with React.
                                     </li>
                                 </ul>
                             </div>
                             <div class="project-links">
-                                <a href="https://crescendo-live.herokuapp.com/">Live</a>
+                                <a href="https://crescendo-application.herokuapp.com/">Live</a>
                                 <a href="https://github.com/ShawnBoyle7/Crescendo">Github</a>
                             </div>
                         <!-- </div> -->
@@ -264,7 +263,7 @@
                 </div>
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center project-container">
                     <h2>GoodGamez</h2>
-                    <p>A GoodReads clone for video games utilizing JavaScript, Pug, Node, Express, Sequelize, PostgreSQL</p>
+                    <p>A GoodReads clone for video games using JavaScript, Pug, Node.js, Express, Sequelize, PostgreSQL</p>
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/goodgamez.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <!-- <div class="featured-text text-center text-lg-left"> -->
@@ -273,15 +272,16 @@
                                 </br>
                                 <ul>
                                     <li>
-                                        Dynamically rendered game reviews through API fetch calls to the database with vanilla Javascript to immediately display user reviews upon posting, to serve a responsive user experience.
+                                        Dynamically rendered user feedback by utilizing AJAX principles, building several scripts for sending API fetch calls to the PostgreSQL database to store the feedback, which is returned to the Express backend and rendered immediately with basic JavaScript and HTML, resulting in a responsive user experience.
+
                                     </li>
                                     <br/>
                                     <li>
-                                        Dynamically rendered game reviews through API fetch calls to the database with vanilla Javascript to immediately display user reviews upon posting, to serve a responsive user experience.
+                                        Implemented backend user authentication and user security with Express routes, custom validators, and security libraries, protecting against CSRF attacks and storing passwords with the bcryptjs hashing algorithm on signup.
                                     </li>
                                     <br/>
                                     <li>
-                                        Dynamically rendered game reviews through API fetch calls to the database with vanilla Javascript to immediately display user reviews upon posting, to serve a responsive user experience.
+                                        Ensured DRY and reusable code with Pug mixin fields for user auth forms, which are provided form data with JavaScript.
                                     </li>
                                 </ul>
                             </div>
