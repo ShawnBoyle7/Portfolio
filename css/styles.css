@@ -11756,7 +11756,6 @@ body {
 }
 
 .resume-link {
-  text-decoration: none;
   font-size: 2em;
 }
 
@@ -11772,7 +11771,6 @@ body {
 }
 
 .project-links a {
-  text-decoration: none;
   font-size: 1.6em
 }
 
